@@ -1,0 +1,10 @@
+boldy {
+    background-color: #cff3e7;
+#score{
+    display: inline;
+}
+@media screen and (min-width: 480px) {
+    body {
+     background-color:#cff3e7 ;
+     color: black;
+      }
