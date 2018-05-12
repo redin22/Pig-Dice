@@ -1,10 +1,17 @@
-boldy {
+body {
     background-color: #cff3e7;
-#score{
+}
+#score1 {
     display: inline;
 }
 @media screen and (min-width: 480px) {
     body {
      background-color:#cff3e7 ;
      color: black;
-      }
+}
+.piggie {
+  padding-left: 320px;
+}
+.pigie {
+    padding-left: 320px;
+}
