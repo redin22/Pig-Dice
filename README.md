@@ -25,7 +25,7 @@ Poor or no internet connection
 3. Javascript
 4. jQuery
 
-##Licence:
+## Licence:
 This project is licensed under the MIT License.
 Copyright (c) 2018 Rehan Edin
 
