@@ -26,10 +26,13 @@ var Game = {
           return roll;*/
 
 //userinterface logic
-$(document).ready(function(){
-    $(#p1-roll).click(function(){
+/*$(document).ready(function(){
+    $("#p1-roll").click(function(){
         return Math.floor(Math.random() *6) +1;
     })
-});
+});*/
 
+$("button").click(function(){
+    $(".rules").toggle();
+});
 

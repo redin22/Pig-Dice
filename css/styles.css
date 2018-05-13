@@ -1,4 +1,4 @@
-body {
+boljdy {
     background-color: #cff3e7;
 }
 #score1 {
@@ -7,7 +7,7 @@ body {
 @media screen and (min-width: 480px) {
     body {
      background-color:#cff3e7 ;
-     color: black;
+     color:black;
 }
 .piggie {
   padding-left: 320px;
@@ -15,3 +15,11 @@ body {
 .pigie {
     padding-left: 320px;
 }
+.rules{
+    display: none;
+    text-align: center;
+}
+#game{
+    margin-left: 350px;
+}
+
