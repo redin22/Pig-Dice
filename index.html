@@ -12,36 +12,44 @@
  <div class="container">
     <img class="piggie"src="pigdice.jpeg" alt="pigdice logo">
     <h1 class="pigie">Let's play!!</h1>
-    
+
         <button id="game">Rules of the game</button>
-     <div class="rules">
-       <p>1.If the player rolls a 1, they score nothing and it becomes the next player's turn.</p>
-       <p>2.If the player rolls any other number, it is added to their turn total and the player's turn continues.</p>
-       <p>3.If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
-       <p>4.The first player to score 100 or more points wins.</p>
-     </div>
-    
+         <div class="rules">
+            <p>1.If the player rolls a 1, they score nothing and it becomes the next player's turn.</p>
+            <p>2.If the player rolls any other number, it is added to their turn total and the player's turn continues.</p>
+            <p>3.If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
+            <p>4.The first player to score 100 or more points wins.</p>
+        </div>
+
     <div class="row">
         <div class= "col-md-6">
-            <img src="femaleicon.png" alt="female icon">
-          <h3 "p1Name">Player 1</h3>
-          <button id="p1-roll" class="btn btn-success">Roll Dice</button>
-          <button id="p1-hold" class="btn btn-primary">Hold</button>
-          <h4 "score1">Score</h4>
-          <input type="text" name="" id="score">
+          <img src="femaleicon.png" alt="female icon">
+          <h3 id="player1">Player 1</h3>
+          <button id="p1-roll" class="btn btn-success d-block">Roll Dice</button>
+          <button id="p1-hold" class="btn btn-primary d-block">Hold</button>
+          <div class="output1"></div>
+
+          <h4>Score</h4>
+          <p>Player 1 points: <span id="score1"></span></p>
+          <p>Player 1 total points: <span id="Totalscore1"></span></p>
+
         </div>
 
         <div class= "col-md-6">
-            <img src="maleicon.png" alt="male icon">
-           <h3 "p2 name">Player 2</h3>
-           <button id="p2-roll" class="btn btn-success">Roll Dice</button>
-           <button id="p2-hold" class="btn btn-primary">Hold</button>
-           <h4 "score2">Score</h4>
-          <input type="text" name="" id="score">
+          <img src="maleicon.png" alt="male icon">
+          <h3 id="player2">Player 2</h3>
+          <button id="p2-roll" class="btn btn-success">Roll Dice</button>
+          <button id="p2-hold" class="btn btn-primary">Hold</button>
+          <div class="output2"></div>
+
+          <h4>Score</h4>
+          <p>Player 2 points: <span id="score2"></span></p>
+          <p>Player 2 total points: <span id="Totalscore2"></span></p>
+
         </div>
     </div>
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
  </div>
 </body>
 </html>

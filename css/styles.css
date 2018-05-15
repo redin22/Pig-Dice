@@ -1,25 +1,22 @@
-boljdy {
+body {
     background-color: #cff3e7;
 }
-#score1 {
-    display: inline;
-}
+
 @media screen and (min-width: 480px) {
     body {
-     background-color:#cff3e7 ;
-     color:black;
+       background-color:#cff3e7;
+       color:black;
 }
 .piggie {
-  padding-left: 320px;
+    padding-left: 370px;
 }
 .pigie {
-    padding-left: 320px;
+    padding-left: 390px;
 }
-.rules{
+.rules {
     display: none;
     text-align: center;
 }
-#game{
-    margin-left: 350px;
+#game {
+    margin-left: 460px;
 }
-
