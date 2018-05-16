@@ -5,7 +5,7 @@
 This is a game where two players play dice. On their turn to play, they may choose to roll the die or hold.
 
 ## Set up requirements:
-The players need to have access to internet. They should then go to https://github.com/redin22/Pig-Dice to play the game.
+The players need to have access to internet. They should then go to redin22.github.io/Pig-Dice to play the game.
 The players have to be two.
 
 ## Specifications/ rules:
